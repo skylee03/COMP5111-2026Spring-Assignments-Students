@@ -1,0 +1,26 @@
+comp5111.assignment.cut.Regression_6_Test - Line Coverage
+
+Overview:
+********************************************************************************************
+Overall: 
+total: (*omitted*)   covered: (*omitted*)   percentage: 55.2%
+
+comp5111.assignment.cut.Subject$DateTimeAlgorithms
+total: 159   covered: 101    percentage: 63.5%
+
+comp5111.assignment.cut.Subject$...
+...(omitted. please list the coverage of all inner classes)...
+
+Details:
+********************************************************************************************
+
+comp5111.assignment.cut.Subject$DateTimeAlgorithms
+
+int daysBetweenDateStrings(java.lang.String,java.lang.String)
+Covered Line 687   (you are encouraged to further print relevant Jimple statements in this line: parts1 = virtualinvoke dateStr1.<java.lang.String: java.lang.String[] split(java.lang.String)>("-") )
+Covered Line 688   (you are encouraged to further print relevant Jimple statements in this line: parts2 = virtualinvoke dateStr2.<java.lang.String: java.lang.String[] split(java.lang.String)>("-") )
+Covered Line 689   (you are encouraged to further print relevant Jimple statements in this line: $stack13 = lengthof parts2; if $stack13 == 3 goto $stack14 = parts1[0]; $stack12 = lengthof parts1; if $stack12 != 3 goto return -2147483648 )
+Covered Line 690   (you are encouraged to further print relevant Jimple statements in this line: return -2147483648 )
+Missing Line 691   (you are encouraged to further print relevant Jimple statements in this line: $stack14 = parts1[0]; y1 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($stack14) )
+Missing Line 692   (you are encouraged to further print relevant Jimple statements in this line: $stack16 = parts1[1]; m1 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($stack16) )
+...(omitted)...
