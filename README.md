@@ -5,4 +5,4 @@ This repository contains materials for HKUST COMP5111's programming assignments.
 ## Programming Assignment
 
 - Assignment 1: branch [`asn1`](../../tree/asn1) (Deadline: 11:55 pm 15 March 2026)
-- Assignment 2: (not released yet)
+- Assignment 2: branch [`asn2`](../../tree/asn2) (Deadline: 11:55 pm 9 May 2026)
